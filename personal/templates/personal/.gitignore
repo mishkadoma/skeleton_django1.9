@@ -1,0 +1,25 @@
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   ../../../intro/__pycache__/settings.cpython-36.pyc
+	modified:   ../../../intro/__pycache__/urls.cpython-36.pyc
+	modified:   ../../../webapp/__pycache__/views.cpython-36.pyc
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	../../../db.sqlite3
+	../../__init__.py
+	../../__pycache__/
+	../../admin.py
+	../../apps.py
+	../../migrations/
+	../../models.py
+	../
+	../../tests.py
+	../../urls.py
+
+no changes added to commit (use "git add" and/or "git commit -a")
