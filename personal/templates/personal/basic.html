@@ -1,0 +1,10 @@
+{% extends "personal/header.html" %}
+
+{% block content %}
+  {% for key, value in info.items %}
+    <p>
+      {{ key }}:
+      {{ value }}
+    </p>
+  {% endfor %}
+{% endblock %}
