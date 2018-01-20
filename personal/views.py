@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from django.http import HttpResponse
+# from django.http import HttpResponse
 
 
 def index(request):
@@ -9,6 +9,4 @@ def index(request):
 def contact(request):
     return render(request, 'personal/basic.html', {'info': {'name': 'James',
                                                             'lastname': 'Baxter',
-                                                            'phone': '724235124'}
-                                                   }
-                  )
+                                                            'phone': '724235124'})
